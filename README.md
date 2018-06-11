@@ -1,4 +1,8 @@
-# Open Source @ FactSet
+# Open Source Governance @ [FactSet](https://factset.com/)
+
+**If you are an employee at FactSet, please refer to FactSet's _Open Source Code Use Policy_ on the corporate intranet, for details about our corporate policies with respect to Open Sourcing existing software, contributing to Open Source software during work, and contributing to Open Source software outside of work**
+
+**This document is intended to capture our policies for maintaining Open Source projects under the _FactSet_ organization on GitHub.**
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -14,11 +18,10 @@
 
 ## Joining the FactSet Organization
 
-There are a few requirements prior to a FactSet employee joining the FactSet organization on GitHub.
+There are a few requirements prior to joining the FactSet organization on GitHub as either an employee, or an outside contributor.
 
 Requirements:
 * Must have [2FA authentication enabled with GitHUb](https://help.github.com/articles/securing-your-account-with-two-factor-authentication-2fa/).
-  * This is part of our continued efforts to improve the security of FactSet's Open Source efforts.
 
 ## Setting Up a Project
 
@@ -31,6 +34,8 @@ Here are our recommendations for workflow integrations when setting up a new pro
 * Automated Dependency Updates - https://github.com/marketplace/renovate
 
 ## Common Issues
+
+While working on Open Source projects under the FactSet organization, you may encounter the following common issues.
 
 ### Disabling Two Factor Authentication
 
