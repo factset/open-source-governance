@@ -1,0 +1,67 @@
+[{
+  "repositories": [
+    "factset/labeledpipe",
+    "factset/deprecator"
+  ],
+  "labels": [{
+      "name": "defect",
+      "description": "",
+      "color": "FF0000"
+    },
+    {
+      "name": "design",
+      "description": "",
+      "color": "FADFAE"
+    },
+    {
+      "name": "documentation",
+      "description": "",
+      "color": "7F8C8D"
+    },
+    {
+      "name": "enhancement",
+      "description": "",
+      "color": "69D100"
+    },
+    {
+      "name": "help-wanted",
+      "description": "We need the community's help to address this issue by submitting a merge request.",
+      "color": "228B22"
+    },
+    {
+      "name": "operations",
+      "description": "Tasks that do not require modifications to a project's repository.",
+      "color": "00FFFF"
+    },
+    {
+      "name": "refactor",
+      "description": "",
+      "color": "34495E"
+    },
+    {
+      "name": "security",
+      "description": "Please file security related issues and incidents as confidential.",
+      "color": "0033CC"
+    },
+    {
+      "name": "suggestion",
+      "description": "",
+      "color": "44AD8E"
+    },
+    {
+      "name": "support",
+      "description": "",
+      "color": "8E44AD"
+    },
+    {
+      "name": "test",
+      "description": "",
+      "color": "F0AD4E"
+    },
+    {
+      "name": "upstream",
+      "description": "Issue can only be resolved by fixing, or enhancing, an upstream dependency.",
+      "color": "D10069"
+    }
+  ]
+}]

@@ -33,6 +33,18 @@ Here are our recommendations for workflow integrations when setting up a new pro
 * Code Coverage Reports - https://github.com/marketplace/codecov
 * Automated Dependency Updates - https://github.com/marketplace/renovate
 
+### GitHub Labels
+
+A set of suggested [GitHub Labels](https://help.github.com/articles/about-labels/) are available in our [`labels`.json](./labels.json) file.
+
+To deploy these labels to a project, please install [`github-sync-labels-milestones`](https://www.npmjs.com/package/github-sync-labels-milestones), download the `labels.json` file (or clone this repository), and run the following:
+
+```bash
+github-sync-labels-milestones --token [PERSONAL ACCESS TOKEN] --config labels.json
+```
+
+> **Note:** Please create a [_Personal Access Token_](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) with repository access to all repositories listed in the `labels.json` file and pass that token to the `--token` flag.
+
 ## Common Issues
 
 While working on Open Source projects under the FactSet organization, you may encounter the following common issues.
