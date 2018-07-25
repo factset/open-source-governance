@@ -11,6 +11,7 @@
 - [Joining the FactSet Organization](#joining-the-factset-organization)
 - [Setting Up a Project](#setting-up-a-project)
   - [JavaScript Project](#javascript-project)
+  - [GitHub Labels](#github-labels)
 - [Common Issues](#common-issues)
   - [Disabling Two Factor Authentication](#disabling-two-factor-authentication)
 
