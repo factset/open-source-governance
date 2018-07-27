@@ -2,7 +2,8 @@ version: 2
 
 jobs:
   sync_labels:
-    image: node:8@sha256:625d0b446f63b2d051c7b2a468f6cee63536dec716f09afcf9ae1c575d9b953a
+    docker:
+      - image: node:8@sha256:625d0b446f63b2d051c7b2a468f6cee63536dec716f09afcf9ae1c575d9b953a
     steps:
       - checkout
       - run: yarn install
