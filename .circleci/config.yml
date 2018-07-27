@@ -20,4 +20,4 @@ workflows:
                 - master
     jobs:
       - sync_labels:
-        context: github-interaction
+          context: github-interaction
