@@ -1,0 +1,14 @@
+{
+  "author": "Hutson Betts <hbetts@factset.com>",
+  "license": "Apache-2.0",
+  "main": "",
+  "name": "open-source-governance",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/factset/open-source-governance.git"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "github-sync-labels-milestones": "^0.3.1"
+  }
+}

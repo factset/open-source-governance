@@ -1,5 +1,13 @@
 [{
   "repositories": [
+    "factset/open-source-governance"
+  ],
+  "labels": [{
+    "name": "idea",
+    "description": "",
+    "color": "69D100"
+  }]}, {
+  "repositories": [
     "factset/labeledpipe",
     "factset/deprecator"
   ],

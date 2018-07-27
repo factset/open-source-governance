@@ -1,0 +1,22 @@
+version: 2
+
+jobs:
+  sync_labels:
+    image: node:8@sha256:625d0b446f63b2d051c7b2a468f6cee63536dec716f09afcf9ae1c575d9b953a
+    steps:
+      - checkout
+      - run: yarn install
+      - run: yarn github-sync-labels-milestones --token ${GITHUB_AUTH_TOKEN} --config labels.json -- verbose
+
+workflows:
+  version: 2
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - sync_labels
