@@ -9,6 +9,8 @@
 ## Table of Contents
 
 - [Joining the FactSet Organization](#joining-the-factset-organization)
+  - [Setup Two-factor Authentication](#setup-two-factor-authentication)
+  - [Use Full Name in Your Profile](#use-full-name-in-your-profile)
 - [Setting Up a Project](#setting-up-a-project)
   - [JavaScript Project](#javascript-project)
   - [GitHub Labels](#github-labels)
@@ -19,10 +21,23 @@
 
 ## Joining the FactSet Organization
 
-There are a few requirements prior to joining the FactSet organization on GitHub as either an employee, or an outside contributor.
+There are a few tasks that will need to be completed prior to joining the FactSet organization as an employee or outside collaborator.
 
-Requirements:
-* Must have [2FA authentication enabled with GitHUb](https://help.github.com/articles/securing-your-account-with-two-factor-authentication-2fa/).
+Some tasks are requirements while others will simply make your experience, and that of others, better.
+
+### Setup Two-factor Authentication
+
+> **Required**
+
+All accounts belonging to the `factset` organization must have [2FA authentication enabled with GitHUb](https://help.github.com/articles/securing-your-account-with-two-factor-authentication-2fa/).
+
+### Use Full Name in Your Profile
+
+Through your [profile settings page](https://github.com/settings/profile) please use your full name on your public profile so that it's easy for members within the organization, and non-organization contributors, to find you.
+
+An example of using a person's first name to discover them using [GitHub's _mention_ feature](https://blog.github.com/2011-03-23-mention-somebody-they-re-notified/).
+
+![Mentioning Org Member](./images/mention.png)
 
 ## Setting Up a Project
 
