@@ -12,7 +12,7 @@
   - [Setup Two-factor Authentication](#setup-two-factor-authentication)
   - [Use Full Name in Your Profile](#use-full-name-in-your-profile)
 - [Setting Up a Project](#setting-up-a-project)
-  - [JavaScript Project](#javascript-project)
+  - [Workflow Platforms](#workflow-platforms)
   - [GitHub Labels](#github-labels)
 - [Common Issues](#common-issues)
   - [Disabling Two Factor Authentication](#disabling-two-factor-authentication)
@@ -41,17 +41,25 @@ An example of using a person's first name to discover them using [GitHub's _ment
 
 ## Setting Up a Project
 
-Here are our recommendations for workflow integrations when setting up a new project in FactSet's organization.
+Once you have a new project on FactSet's organization (created through FactSet's _Open Source Code Use Policy_ process), it's time to get your project setup with a few things to make your life easier.
 
-### JavaScript Project
+### Workflow Platforms
 
-* Continuous Integration - https://github.com/marketplace/circleci
-* Code Coverage Reports - https://github.com/marketplace/codecov
-* Automated Dependency Updates - https://github.com/marketplace/renovate
+To make third-party contributions easier to accept, while also maintaining a high quality project, there are numerous tools that can be installed onto your project to provide continuous feedback on project quality, security, team health, etc.
+
+Please feel free to reach out to the @cid-support team to get your project setup with one of the many available platforms listed below:
+
+- Continuous Integration and Deployment - [Circle CI](https://github.com/marketplace/circleci)
+- Code Coverage - [CodeCov](https://github.com/marketplace/codecov)
+- Automated Dependency Updates - [Renovate](https://github.com/marketplace/renovate)
+- Security Scanning - [Snyk](https://github.com/marketplace/snyk)
+- Team Health and Analytics - [DeepAffect](https://github.com/marketplace/deepaffects)
+
+If you feel your team could benefit from integration with a platform not listed above reach out to the @cid-support team and we'll work with you to meet your project's needs.
 
 ### GitHub Labels
 
-A set of suggested [GitHub Labels](https://help.github.com/articles/about-labels/) are available in our [`labels`.json](./labels.json) file.
+To help with issue and pull request management, we recommend a set of [GitHub Labels](https://help.github.com/articles/about-labels/) in this project's [`labels.json`](./labels.json) file.
 
 To deploy these labels to a project, please install [`github-sync-labels-milestones`](https://www.npmjs.com/package/github-sync-labels-milestones), download the `labels.json` file (or clone this repository), and run the following:
 
@@ -63,12 +71,12 @@ github-sync-labels-milestones --token [PERSONAL ACCESS TOKEN] --config labels.js
 
 ## Common Issues
 
-While working on Open Source projects under the FactSet organization, you may encounter the following common issues.
+While working on Open Source projects under the FactSet organization you may encounter the following common issues.
 
 ### Disabling Two Factor Authentication
+
+In the event that you disable, and then re-enable, 2FA, please reach out to a member of the organization to be re-invited.
 
 [According to GitHub](https://help.github.com/articles/disabling-two-factor-authentication-for-your-personal-account/):
 
 > Warning: If you're a member, billing manager, or outside collaborator to a public repository of an organization that requires two-factor authentication and you disable 2FA, you'll be automatically removed from the organization, and you'll lose your access to their repositories. To regain access to the organization, re-enable two-factor authentication and contact an organization owner.
-
-In the event that you disable, and then re-enable, 2FA, please reach out to a member of the organization to be re-invited.
