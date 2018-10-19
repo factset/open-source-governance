@@ -33,11 +33,11 @@ All accounts belonging to the `factset` organization must have [2FA authenticati
 
 ### Use Full Name in Your Profile
 
+<img align="right" alt="Mentioning an organization member." src="/images/mention.png">
+
 Through your [profile settings page](https://github.com/settings/profile) please use your full name on your public profile so that it's easy for members within the organization, and non-organization contributors, to find you.
 
 An example of using a person's first name to discover them using [GitHub's _mention_ feature](https://blog.github.com/2011-03-23-mention-somebody-they-re-notified/).
-
-![Mentioning Org Member](./images/mention.png)
 
 ## Setting Up a Project
 
