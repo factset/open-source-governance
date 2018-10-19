@@ -48,7 +48,7 @@ Once you have a new project on FactSet's organization (created through FactSet's
 
 To make third-party contributions easier to accept, while also maintaining a high quality project, there are numerous tools that can be installed onto your project to provide continuous feedback on project quality, security, team health, etc.
 
-Please feel free to reach out to the @cid-support team to get your project setup with one of the many available platforms listed below:
+Please feel free to reach out to the [@cid-support](https://github.com/orgs/factset/teams/cid-support/members) team to get your project setup with one of the many available platforms listed below:
 
 - Continuous Integration and Deployment - [Circle CI](https://github.com/marketplace/circleci)
 - Code Coverage - [CodeCov](https://github.com/marketplace/codecov)
@@ -56,7 +56,7 @@ Please feel free to reach out to the @cid-support team to get your project setup
 - Security Scanning - [Snyk](https://github.com/marketplace/snyk)
 - Team Health and Analytics - [DeepAffect](https://github.com/marketplace/deepaffects)
 
-If you feel your team could benefit from integration with a platform not listed above reach out to the @cid-support team and we'll work with you to meet your project's needs.
+If you feel your team could benefit from integration with a platform not listed above reach out to the [@cid-support](https://github.com/orgs/factset/teams/cid-support/members) team and we'll work with you to meet your project's needs.
 
 ### Developer Extensions
 
