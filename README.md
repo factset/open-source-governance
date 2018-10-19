@@ -13,6 +13,7 @@
   - [Use Full Name in Your Profile](#use-full-name-in-your-profile)
 - [Setting Up a Project](#setting-up-a-project)
   - [Workflow Platforms](#workflow-platforms)
+  - [Developer Extensions](#developer-extensions)
   - [GitHub Labels](#github-labels)
 - [Common Issues](#common-issues)
   - [Disabling Two Factor Authentication](#disabling-two-factor-authentication)
@@ -56,6 +57,12 @@ Please feel free to reach out to the @cid-support team to get your project setup
 - Team Health and Analytics - [DeepAffect](https://github.com/marketplace/deepaffects)
 
 If you feel your team could benefit from integration with a platform not listed above reach out to the @cid-support team and we'll work with you to meet your project's needs.
+
+### Developer Extensions
+
+To further improve your productivity while working with FactSet's Open Source projects consider getting setup with the following browser extensions:
+
+- Inline Code Intelligence - [Sourcegraph](https://about.sourcegraph.com/)
 
 ### GitHub Labels
 
