@@ -12,7 +12,7 @@
   - [Setup Two-factor Authentication](#setup-two-factor-authentication)
   - [Use Full Name in Your Profile](#use-full-name-in-your-profile)
 - [Setting Up a Project](#setting-up-a-project)
-  - [Workflow Platforms](#workflow-platforms)
+  - [Developer Tooling](#developer-tooling)
   - [Developer Extensions](#developer-extensions)
   - [GitHub Labels](#github-labels)
 - [Common Issues](#common-issues)
@@ -44,11 +44,11 @@ An example of using a person's first name to discover them using [GitHub's _ment
 
 Once you have a new project on FactSet's organization (created through FactSet's _Open Source Code Use Policy_ process), it's time to get your project setup with a few things to make your life easier.
 
-### Workflow Platforms
+### Developer Tooling
 
 To make third-party contributions easier to accept, while also maintaining a high quality project, there are numerous tools that can be installed onto your project to provide continuous feedback on project quality, security, team health, etc.
 
-Please feel free to reach out to the [@cid-support](https://github.com/orgs/factset/teams/cid-support/members) team to get your project setup with one of the many available platforms listed below:
+Please feel free to reach out to the [@cid-support](https://github.com/orgs/factset/teams/cid-support/members) team, or read through our [**Developer Tooling Guide**](./developer-tooling.md), to get your project setup with one of the many available platforms listed below:
 
 - Continuous Integration and Deployment - [Circle CI](https://github.com/marketplace/circleci)
 - Code Coverage - [CodeCov](https://github.com/marketplace/codecov)
