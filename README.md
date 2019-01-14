@@ -11,10 +11,12 @@
 - [Joining the FactSet Organization](#joining-the-factset-organization)
   - [Setup Two-factor Authentication](#setup-two-factor-authentication)
   - [Use Full Name in Your Profile](#use-full-name-in-your-profile)
-- [Setting Up a Project](#setting-up-a-project)
+- [Setup a Project](#setup-a-project)
   - [Developer Tooling](#developer-tooling)
   - [Developer Extensions](#developer-extensions)
   - [GitHub Labels](#github-labels)
+- [Policies](#policies)
+  - [Package Publishing](#package-publishing)
 - [Common Issues](#common-issues)
   - [Disabling Two Factor Authentication](#disabling-two-factor-authentication)
 
@@ -24,43 +26,47 @@
 
 There are a few tasks that will need to be completed prior to joining the FactSet organization as an employee or outside collaborator.
 
-Some tasks are requirements while others will simply make your experience, and that of others, better.
+Some tasks are requirements stemming from corporate policies while others will improve your experience, and the experience of others in our organization.
 
 ### Setup Two-factor Authentication
 
 > **Required**
 
-All accounts belonging to the `factset` organization must have [2FA authentication enabled with GitHUb](https://help.github.com/articles/securing-your-account-with-two-factor-authentication-2fa/).
+Please setup your GitHub account with [2FA authentication enabled with GitHUb](https://help.github.com/articles/securing-your-account-with-two-factor-authentication-2fa/).
 
 ### Use Full Name in Your Profile
 
 <img align="right" alt="Mentioning an organization member." src="/images/mention.png">
 
-Through your [profile settings page](https://github.com/settings/profile) please use your full name on your public profile so that it's easy for members within the organization, and non-organization contributors, to find you.
+On your [profile settings page](https://github.com/settings/profile) please use your full name on your public profile so that it's easy for members within the organization, and non-organization contributors, to find you.
 
 An example of using a person's first name to discover them using [GitHub's _mention_ feature](https://blog.github.com/2011-03-23-mention-somebody-they-re-notified/).
 
-## Setting Up a Project
+## Setup a Project
 
 Once you have a new project on FactSet's organization (created through FactSet's _Open Source Code Use Policy_ process), it's time to get your project setup with a few things to make your life easier.
 
 ### Developer Tooling
 
-To make third-party contributions easier to accept, while also maintaining a high quality project, there are numerous tools that can be installed onto your project to provide continuous feedback on project quality, security, team health, etc.
+You may setup your project with several platforms to provide your team with feedback on code quality, security, team health, etc.
 
-Please feel free to reach out to the [@cid-support](https://github.com/orgs/factset/teams/cid-support/members) team, or read through our [**Developer Tooling Guide**](./developer-tooling.md), to get your project setup with one of the many available platforms listed below:
+FactSet’s Continuous Integration and Delivery (CID) team provides some support for the following platforms:
 
-- Continuous Integration and Deployment - [Circle CI](https://github.com/marketplace/circleci)
+- Continuous Integration, Delivery, and Deployment - [Circle CI](https://github.com/marketplace/circleci)
 - Code Coverage - [CodeCov](https://github.com/marketplace/codecov)
 - Automated Dependency Updates - [Renovate](https://github.com/marketplace/renovate)
 - Security Scanning - [Snyk](https://github.com/marketplace/snyk)
 - Team Health and Analytics - [DeepAffect](https://github.com/marketplace/deepaffects)
 
-If you feel your team could benefit from integration with a platform not listed above reach out to the [@cid-support](https://github.com/orgs/factset/teams/cid-support/members) team and we'll work with you to meet your project's needs.
+Please feel free _@mention_ the [`@cid-support`](https://github.com/orgs/factset/teams/cid-support/members) team to enable these platforms for your project.
+
+For additional guidance on using these platforms please see our [**Developer Tooling**](./developer-tooling.md) guide.
+
+If you feel your team could benefit from integration with a platform not listed above, please reach out to the [`@cid-support`](https://github.com/orgs/factset/teams/cid-support/members) team and we'll work with you to meet your project's needs.
 
 ### Developer Extensions
 
-To further improve your productivity while working with FactSet's Open Source projects consider getting setup with the following browser extensions:
+To further improve your productivity consider installing the following browser extensions:
 
 - Inline Code Intelligence - [Sourcegraph](https://about.sourcegraph.com/)
 
@@ -75,6 +81,25 @@ github-sync-labels-milestones --token [PERSONAL ACCESS TOKEN] --config labels.js
 ```
 
 > **Note:** Please create a [_Personal Access Token_](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) with repository access to all repositories listed in the `labels.json` file and pass that token to the `--token` flag.
+
+## Policies
+
+### Package Publishing
+
+All packages published to a third-party package repository such as Nuget, Npm, PyPI, etc., from a FactSet Open Source project on `GitHub.com/factset` must be published under an account owned and managed by FactSet’s Open Source Committee (OSC).
+
+_If you do not intend to publish your project to a third-party package repository, or don't plan to at this time, then no action is required on your part._
+
+Our policy is to ensure our company retains control over the published package for the duration of its use at FactSet.
+
+We currently support publishing under accounts for the following package repositories:
+
+- [Npm](https://www.npmjs.com/~fds)
+- [PyPI](https://pypi.org/user/factset/)
+
+We are adding support for additional package repositories: including Conan, Nuget, Circle CI Orbs, and Maven. If we’re not supporting a package repository that you need, please _@mention_ the [`@cid-support`](https://github.com/orgs/factset/teams/cid-support) team.
+
+Though you are publishing under an account managed by the OSC, you may continue to manage your release workflow, deciding when its best to publish a new version of your project.
 
 ## Common Issues
 
