@@ -74,10 +74,10 @@ To further improve your productivity consider installing the following browser e
 
 To help with issue and pull request management, we recommend a set of [GitHub Labels](https://help.github.com/articles/about-labels/) in this project's [`labels.json`](./labels.json) file.
 
-To deploy these labels to a project, please install [`github-sync-labels-milestones`](https://www.npmjs.com/package/github-sync-labels-milestones), download the `labels.json` file (or clone this repository), and run the following:
+To deploy these labels to a project, we recommend using a tool called [`@hutson/github-metadata-sync`](https://www.npmjs.com/package/@hutson/github-metadata-sync), download the `labels.json` file (or clone this repository), and run the following:
 
 ```bash
-github-sync-labels-milestones --token [PERSONAL ACCESS TOKEN] --config labels.json
+github-metadata-sync --config labels.json --token [PERSONAL ACCESS TOKEN]
 ```
 
 > **Note:** Please create a [_Personal Access Token_](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) with repository access to all repositories listed in the `labels.json` file and pass that token to the `--token` flag.

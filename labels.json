@@ -2,11 +2,23 @@
   "repositories": [
     "factset/open-source-governance"
   ],
-  "labels": [{
-    "name": "idea",
-    "description": "",
-    "color": "69D100"
-  }]}, {
+  "labels": [
+    {
+      "name": "documentation",
+      "description": "Installation and usage guides, along with tutorials for developers, consumers, and contributors.",
+      "color": "7F8C8D"
+    },
+    {
+      "name": "suggestion",
+      "description": "Proposal for a change to the project where consensus may be needed.",
+      "color": "44AD8E"
+    },
+    {
+      "name": "support",
+      "description": "Issues that do not require modifications to a project, such as questions, guidance, etc.",
+      "color": "8E44AD"
+    }
+  ]}, {
   "repositories": [
     "factset/labeledpipe",
     "factset/deprecator",
