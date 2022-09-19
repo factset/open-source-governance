@@ -52,11 +52,8 @@ You may setup your project with several platforms to provide your team with feed
 
 FactSet’s Continuous Integration and Delivery (CID) team provides some support for the following platforms:
 
-- Continuous Integration, Delivery, and Deployment - [Circle CI](https://github.com/marketplace/circleci)
-- Code Coverage - [CodeCov](https://github.com/marketplace/codecov)
+- Continuous Integration, Delivery, and Deployment - [GitHub Actions](https://docs.github.com/en/actions)
 - Automated Dependency Updates - [Renovate](https://github.com/marketplace/renovate)
-- Security Scanning - [Snyk](https://github.com/marketplace/snyk)
-- Team Health and Analytics - [DeepAffect](https://github.com/marketplace/deepaffects)
 
 Please feel free _@mention_ the [`@cid-support`](https://github.com/orgs/factset/teams/cid-support/members) team to enable these platforms for your project.
 
