@@ -50,16 +50,11 @@ Once you have a new project on FactSet's organization (created through FactSet's
 
 You may setup your project with several platforms to provide your team with feedback on code quality, security, team health, etc.
 
-FactSet’s Continuous Integration and Delivery (CID) team provides some support for the following platforms:
+FactSet’s GitHub Admin team provides some support for the following platforms:
 
-- Continuous Integration, Delivery, and Deployment - [GitHub Actions](https://docs.github.com/en/actions)
+- GitHub, including (Please feel free to use any feature available in GitHub Enterprise Cloud)
+  - [GitHub Actions](https://docs.github.com/en/actions)
 - Automated Dependency Updates - [Renovate](https://github.com/marketplace/renovate)
-
-Please feel free _@mention_ the [`@cid-support`](https://github.com/orgs/factset/teams/cid-support/members) team to enable these platforms for your project.
-
-For additional guidance on using these platforms please see our [**Developer Tooling**](./developer-tooling.md) guide.
-
-If you feel your team could benefit from integration with a platform not listed above, please reach out to the [`@cid-support`](https://github.com/orgs/factset/teams/cid-support/members) team and we'll work with you to meet your project's needs.
 
 ### Developer Extensions
 
